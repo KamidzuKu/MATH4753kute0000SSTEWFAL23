@@ -1,0 +1,3 @@
+^.*\.Rproj$
+^\.Rproj\.user$
+install.packages(c("usethis", "devtools", "roxygen2"))

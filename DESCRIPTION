@@ -1,0 +1,10 @@
+Package: MATH4753kute0000SSTEWFAL23
+Type: Package
+Title: What the Package Does (Title Case)
+Version: 0.1.0
+Author: Mikhail Kutepov
+Maintainer: The package maintainer <Mikhail.Kutepov-1@ou.edu>
+Description: Lab functions we use in MATH4753.
+License: What license is it under?
+Encoding: UTF-8
+LazyData: true
