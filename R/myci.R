@@ -24,7 +24,8 @@ myci <- function(x) {
   # Calculate confidence interval
   L <- sample_mean - margin_of_error
   U <- sample_mean + margin_of_error
+  confidence_interval <- paste("(", L, ",", U, ")", sep = "")
 
   # Return the result
-  return(L, U)
+  return(cat("Confidence Interval: ", confidence_interval, "\n"))
 }
