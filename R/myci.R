@@ -22,9 +22,9 @@ myci <- function(x) {
   margin_of_error <- t_critical * standard_error
 
   # Calculate confidence interval
-  ci[1] <- sample_mean - margin_of_error
-  ci[2] <- sample_mean + margin_of_error
+  L <- sample_mean - margin_of_error
+  U <- sample_mean + margin_of_error
 
   # Return the result
-  return(ci)
+  return(L, U)
 }
